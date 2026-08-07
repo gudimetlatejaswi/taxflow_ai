@@ -4,7 +4,7 @@
   const $app = document.getElementById("app");
 
   const roles = {
-    preparer: { name: "Tax Preparer", person: "Tejaswi Rao", initials: "TR", subtitle: "Northstar Tax Group" },
+    preparer: { name: "Tax Preparer", person: "Tejaswi ", initials: "TG", subtitle: "Northstar Tax Group" },
     reviewer: { name: "Reviewer", person: "Maya Patel", initials: "MP", subtitle: "Quality & Compliance" },
     client: { name: "Individual Client", person: "Avery Chen", initials: "AC", subtitle: "2025 Personal Return" },
     owner: { name: "Business Owner", person: "Jordan Lee", initials: "JL", subtitle: "Morgan & Lee Consulting" },
