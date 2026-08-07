@@ -4,7 +4,7 @@
   const $app = document.getElementById("app");
 
   const roles = {
-    preparer: { name: "Tax Preparer", person: "Tejaswi ", initials: "TG", subtitle: "Northstar Tax Group" },
+    preparer: { name: "Tax Preparer", person: "Tejaswi", initials: "TR", subtitle: "Northstar Tax Group" },
     reviewer: { name: "Reviewer", person: "Maya Patel", initials: "MP", subtitle: "Quality & Compliance" },
     client: { name: "Individual Client", person: "Avery Chen", initials: "AC", subtitle: "2025 Personal Return" },
     owner: { name: "Business Owner", person: "Jordan Lee", initials: "JL", subtitle: "Morgan & Lee Consulting" },
@@ -26,13 +26,13 @@
   const returns = [
     {
       id: "RET-1048", client: "Morgan & Lee Consulting LLC", type: "1120-S", year: 2025,
-      deadline: "Sep 15", status: "client_action", progress: 62, owner: "Tejaswi Rao", reviewer: "Maya Patel",
+      deadline: "Sep 15", status: "client_action", progress: 62, owner: "Tejaswi", reviewer: "Maya Patel",
       blocker: "Missing contractor income confirmation", next: "Client confirms 1099-NEC discrepancy", priority: 97,
       risk: 89, openItems: 3, docs: 38, messages: 7, updated: "12 min ago", segment: "Business"
     },
     {
       id: "RET-1039", client: "Avery Chen", type: "1040", year: 2025,
-      deadline: "Apr 15", status: "review", progress: 81, owner: "Tejaswi Rao", reviewer: "Maya Patel",
+      deadline: "Apr 15", status: "review", progress: 81, owner: "Tejaswi ", reviewer: "Maya Patel",
       blocker: "None", next: "Reviewer validates Schedule C", priority: 91,
       risk: 76, openItems: 2, docs: 24, messages: 3, updated: "26 min ago", segment: "Individual"
     },
@@ -44,7 +44,7 @@
     },
     {
       id: "RET-1017", client: "Nora Thompson", type: "1040", year: 2025,
-      deadline: "Apr 15", status: "changes", progress: 74, owner: "Tejaswi Rao", reviewer: "Maya Patel",
+      deadline: "Apr 15", status: "changes", progress: 74, owner: "Tejaswi", reviewer: "Maya Patel",
       blocker: "Mileage evidence not attached", next: "Preparer responds to reviewer", priority: 79,
       risk: 64, openItems: 4, docs: 19, messages: 12, updated: "2 hrs ago", segment: "Individual"
     },
@@ -56,13 +56,13 @@
     },
     {
       id: "RET-1004", client: "Daniel Brooks", type: "1040", year: 2025,
-      deadline: "Apr 15", status: "signature", progress: 94, owner: "Tejaswi Rao", reviewer: "Maya Patel",
+      deadline: "Apr 15", status: "signature", progress: 94, owner: "Tejaswi", reviewer: "Maya Patel",
       blocker: "None", next: "Client signs e-file authorization", priority: 61,
       risk: 22, openItems: 1, docs: 17, messages: 2, updated: "Yesterday", segment: "Individual"
     },
     {
       id: "RET-0998", client: "Alpine Makers Co.", type: "1065", year: 2025,
-      deadline: "Mar 15", status: "filed", progress: 100, owner: "Tejaswi Rao", reviewer: "Maya Patel",
+      deadline: "Mar 15", status: "filed", progress: 100, owner: "Tejaswi", reviewer: "Maya Patel",
       blocker: "None", next: "No action required", priority: 5,
       risk: 18, openItems: 0, docs: 52, messages: 11, updated: "Jul 29", segment: "Business"
     }
@@ -142,22 +142,22 @@
     {
       id: "TH-18", title: "Delta Creative payment mismatch", object: "Contract labor · Line 11", visibility: "client", owner: "Jordan Lee", status: "Waiting on client", updated: "12 min",
       messages: [
-        { from: "Tejaswi ", initials: "TG", mine: true, type: "client", time: "Today, 9:14 AM", text: "We found a difference between the Delta Creative 1099-NEC ($12,000) and your vendor ledger ($15,500). Which amount reflects the payments made during 2025?" },
+        { from: "Tejaswi", initials: "TR", mine: true, type: "client", time: "Today, 9:14 AM", text: "We found a difference between the Delta Creative 1099-NEC ($12,000) and your vendor ledger ($15,500). Which amount reflects the payments made during 2025?" },
         { from: "Jordan Lee", initials: "JL", mine: false, type: "client", time: "Today, 9:42 AM", text: "I believe the ledger includes a January 2026 payment. I am checking the bank activity and will confirm today." },
         { from: "Maya Patel", initials: "MP", mine: false, type: "internal", time: "Today, 9:47 AM", text: "Internal note: do not verify Line 11 until the bank date is confirmed. The AI exclusion for the incorporated vendor looks reasonable." }
       ]
     },
     {
-      id: "TH-11", title: "Client event meal receipts", object: "Deductible meals · Line 12", visibility: "internal", owner: "Tejaswi Rao", status: "Preparer action", updated: "1 hr",
+      id: "TH-11", title: "Client event meal receipts", object: "Deductible meals · Line 12", visibility: "internal", owner: "Tejaswi", status: "Preparer action", updated: "1 hr",
       messages: [
         { from: "Maya Patel", initials: "MP", mine: false, type: "internal", time: "Today, 8:18 AM", text: "Please inspect the two client-event transactions. The current 50% rule may not be appropriate for both." },
-        { from: "Tejaswi", initials: "TG", mine: true, type: "internal", time: "Today, 8:26 AM", text: "I linked both receipts and will classify them after confirming the event details." }
+        { from: "Tejaswi", initials: "TR", mine: true, type: "internal", time: "Today, 8:26 AM", text: "I linked both receipts and will classify them after confirming the event details." }
       ]
     },
     {
       id: "TH-07", title: "Horizon Bank final tax form", object: "Interest income · Schedule K", visibility: "client", owner: "Jordan Lee", status: "Open request", updated: "Yesterday",
       messages: [
-        { from: "Tejaswi ", initials: "TG", mine: true, type: "client", time: "Yesterday, 2:10 PM", text: "Did the Horizon Bank account generate a final 1099-INT after it was closed? Please upload it if one was issued." }
+        { from: "Tejaswi", initials: "TR", mine: true, type: "client", time: "Yesterday, 2:10 PM", text: "Did the Horizon Bank account generate a final 1099-INT after it was closed? Please upload it if one was issued." }
       ]
     }
   ];
@@ -570,7 +570,7 @@
           <div class="section-title">Entry criteria</div><div class="cell-title">Preparation is complete and one client discrepancy remains.</div>
           <div class="section-title" style="margin-top:15px">Exit criteria</div><div class="cell-title">Client confirms the payment date and the preparer verifies Line 11.</div>
           <div class="section-title" style="margin-top:15px">Next-action owner</div><span class="badge client">Jordan Lee · Client</span>
-          <div class="section-title" style="margin-top:15px">Expected handoff</div><div class="cell-title">Back to Tejaswi Rao for verification, then Maya Patel for review.</div>
+          <div class="section-title" style="margin-top:15px">Expected handoff</div><div class="cell-title">Back to Tejaswi for verification, then Maya Patel for review.</div>
         </div></div>
       </section>
     </div></div>`;
