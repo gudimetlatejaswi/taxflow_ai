@@ -6,7 +6,7 @@ Thank you for the opportunity. I’m submitting TaxFlow AI, my clickable prototy
 
 Prototype: https://taxflow-ai-six.vercel.app/
 Video walkthrough: [PASTE VIDEO LINK]
-GitHub repository: [PASTE GITHUB LINK, IF REQUESTED]
+GitHub repository: https://github.com/gudimetlatejaswi/taxflow_ai
 
 The prototype covers source-document traceability, contextual client/CPA collaboration, first-run orientation, context-preserving navigation, role-aware experiences, shared return status, an actionable CPA dashboard, consistent interaction affordances, navigation at document scale, and trustworthy AI correction workflows.
 
