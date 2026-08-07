@@ -70,7 +70,7 @@ Then open `http://localhost:4173`.
 8. Click **Deploy**.
 9. Copy the generated public URL into the submission form.
 
-A detailed beginner walkthrough is in `DEPLOYMENT_GUIDE.md`.
+
 
 ## Recommended reviewer path
 
