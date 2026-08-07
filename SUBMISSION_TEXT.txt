@@ -4,7 +4,7 @@ Hi,
 
 Thank you for the opportunity. I’m submitting TaxFlow AI, my clickable prototype for the AI-powered tax platform case study.
 
-Prototype: [PASTE VERCEL LINK]
+Prototype: https://taxflow-ai-six.vercel.app/
 Video walkthrough: [PASTE VIDEO LINK]
 GitHub repository: [PASTE GITHUB LINK, IF REQUESTED]
 
