@@ -1,0 +1,18 @@
+Subject: AI Engineer Case Study Submission — TaxFlow AI
+
+Hi,
+
+Thank you for the opportunity. I’m submitting TaxFlow AI, my clickable prototype for the AI-powered tax platform case study.
+
+Prototype: [PASTE VERCEL LINK]
+Video walkthrough: [PASTE VIDEO LINK]
+GitHub repository: [PASTE GITHUB LINK, IF REQUESTED]
+
+The prototype covers source-document traceability, contextual client/CPA collaboration, first-run orientation, context-preserving navigation, role-aware experiences, shared return status, an actionable CPA dashboard, consistent interaction affordances, navigation at document scale, and trustworthy AI correction workflows.
+
+Genuinely wired up: role switching, dashboard prioritization, search/filtering, return-field navigation, source highlighting, AI accept/correct/dismiss/request actions, contextual messages, onboarding progress, and a generated 260-document library.
+
+Simulated: all tax data and documents, OCR/extraction, AI outputs and confidence, authentication, backend persistence, messaging delivery, tax calculations, e-signature, and electronic filing.
+
+Best,
+Tejaswi

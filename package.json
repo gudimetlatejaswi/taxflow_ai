@@ -1,0 +1,9 @@
+{
+  "name": "taxflow-ai-case-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clickable frontend prototype for an AI-powered tax platform case study.",
+  "scripts": {
+    "start": "npx serve . -l 4173"
+  }
+}
