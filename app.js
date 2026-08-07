@@ -142,7 +142,7 @@
     {
       id: "TH-18", title: "Delta Creative payment mismatch", object: "Contract labor · Line 11", visibility: "client", owner: "Jordan Lee", status: "Waiting on client", updated: "12 min",
       messages: [
-        { from: "Tejaswi Rao", initials: "TR", mine: true, type: "client", time: "Today, 9:14 AM", text: "We found a difference between the Delta Creative 1099-NEC ($12,000) and your vendor ledger ($15,500). Which amount reflects the payments made during 2025?" },
+        { from: "Tejaswi ", initials: "TG", mine: true, type: "client", time: "Today, 9:14 AM", text: "We found a difference between the Delta Creative 1099-NEC ($12,000) and your vendor ledger ($15,500). Which amount reflects the payments made during 2025?" },
         { from: "Jordan Lee", initials: "JL", mine: false, type: "client", time: "Today, 9:42 AM", text: "I believe the ledger includes a January 2026 payment. I am checking the bank activity and will confirm today." },
         { from: "Maya Patel", initials: "MP", mine: false, type: "internal", time: "Today, 9:47 AM", text: "Internal note: do not verify Line 11 until the bank date is confirmed. The AI exclusion for the incorporated vendor looks reasonable." }
       ]
@@ -151,13 +151,13 @@
       id: "TH-11", title: "Client event meal receipts", object: "Deductible meals · Line 12", visibility: "internal", owner: "Tejaswi Rao", status: "Preparer action", updated: "1 hr",
       messages: [
         { from: "Maya Patel", initials: "MP", mine: false, type: "internal", time: "Today, 8:18 AM", text: "Please inspect the two client-event transactions. The current 50% rule may not be appropriate for both." },
-        { from: "Tejaswi Rao", initials: "TR", mine: true, type: "internal", time: "Today, 8:26 AM", text: "I linked both receipts and will classify them after confirming the event details." }
+        { from: "Tejaswi", initials: "TG", mine: true, type: "internal", time: "Today, 8:26 AM", text: "I linked both receipts and will classify them after confirming the event details." }
       ]
     },
     {
       id: "TH-07", title: "Horizon Bank final tax form", object: "Interest income · Schedule K", visibility: "client", owner: "Jordan Lee", status: "Open request", updated: "Yesterday",
       messages: [
-        { from: "Tejaswi Rao", initials: "TR", mine: true, type: "client", time: "Yesterday, 2:10 PM", text: "Did the Horizon Bank account generate a final 1099-INT after it was closed? Please upload it if one was issued." }
+        { from: "Tejaswi ", initials: "TG", mine: true, type: "client", time: "Yesterday, 2:10 PM", text: "Did the Horizon Bank account generate a final 1099-INT after it was closed? Please upload it if one was issued." }
       ]
     }
   ];
